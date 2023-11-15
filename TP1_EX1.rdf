@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:lang="en"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:isima="https://isima.rnu.tn/fra/schema#"
+    xmlns:sr="https://www.linkedin.com/in/sami-rajichi/schema#"
+    xmlns:expr="https://www.linkedin.com/in/sami-rajichi/details/experience/schema#">
+    
+    <rdf:Description rdf:about="https://isima.rnu.tn/fra/home">
+        <rdf:type rdf:resource="https://isima.rnu.tn/fra/schema#TunisiaUniversity"/>
+        <isima:attachedTo rdf:resource="http://www.um.rnu.tn/fr"/>
+        <isima:completeName>
+            <rdf:Alt>
+                <rdf:li xml:lang="fr">L'Institut Supérieur d'Informatique de Mahdia</rdf:li>
+                <rdf:li xml:lang="ar">المعهد العالي للإعلامية بالمهدية</rdf:li>
+                <rdf:li xml:lang="en">The higher Institute of Computer Science of Mahdia</rdf:li>
+            </rdf:Alt>
+        </isima:completeName>
+        <isima:location rdf:resource="https://fr.wikipedia.org/wiki/Mahdia"/>
+        <isima:createdIn rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">
+            2004
+        </isima:createdIn>
+        <isima:undergraduateDegrees>
+            <rdf:Bag>
+                <rdf:li rdf:resource="https://isima.rnu.tn/fra/pages/227/licence-computer-science--lcs-"/>
+                <rdf:li rdf:resource="https://isima.rnu.tn/fra/pages/230/licence-computer-engineering--lce-"/>
+                <rdf:li rdf:resource="https://isima.rnu.tn/fra/pages/231/licence-business-computing--lbc-"/>
+            </rdf:Bag>
+        </isima:undergraduateDegrees>
+        <isima:postgraduateDegrees>
+            <rdf:Bag>
+                <rdf:li rdf:resource="https://isima.rnu.tn/fra/pages/214/computer-engineering---expert-reseaux"/>
+                <rdf:li rdf:resource="https://isima.rnu.tn/fra/pages/217/data-sciences--sciences-des-donnees--"/>
+            </rdf:Bag>
+        </isima:postgraduateDegrees>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://isima.rnu.tn/fra/pages/227/licence-computer-science--lcs-">
+        <isima:lcsFullName>
+            <rdf:Alt>
+                <rdf:li xml:lang="en">Bachelor degree in Computer Science</rdf:li>
+                <rdf:li xml:lang="fr">Licence en sciences de l'informatique</rdf:li>
+            </rdf:Alt>
+        </isima:lcsFullName>
+        <isima:aggregateName>LCS</isima:aggregateName>
+    </rdf:Description>
+        <rdf:Description rdf:about="https://isima.rnu.tn/fra/pages/230/licence-computer-engineering--lce-">
+            <isima:lceFullName>
+                <rdf:Alt>
+                    <rdf:li xml:lang="en">Bachelor degree in Computer Engineering</rdf:li>
+                    <rdf:li xml:lang="fr">Licence en Ingénierie informatique</rdf:li>
+                </rdf:Alt>
+            </isima:lceFullName>
+            <isima:aggregateName>LCE</isima:aggregateName>
+        </rdf:Description>
+    <rdf:Description rdf:about="https://isima.rnu.tn/fra/pages/231/licence-business-computing--lbc-">
+        <isima:lbcFullName>
+            <rdf:Alt>
+                <rdf:li xml:lang="en">Bachelor degree in Business Computing</rdf:li>
+                <rdf:li xml:lang="fr">Licence en Informatique d'entreprise</rdf:li>
+            </rdf:Alt>
+        </isima:lbcFullName>
+        <isima:aggregateName>LBC</isima:aggregateName>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://isima.rnu.tn/fra/pages/217/data-sciences-----------sciences-des-donnees-">
+        <isima:mp-sdFullName>
+            <rdf:Alt>
+                <rdf:li xml:lang="en">Professional Master in Data Science</rdf:li>
+                <rdf:li xml:lang="fr">Mastère Professionnel en Science des Données</rdf:li>
+            </rdf:Alt>
+        </isima:mp-sdFullName>
+        <isima:aggregateName>MP-SD</isima:aggregateName>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://isima.rnu.tn/fra/pages/214/computer-engineering---expert-reseaux">
+        <isima:exrFullName>
+            <rdf:Alt>
+                <rdf:li xml:lang="en">Professional Master in Computer Engineering</rdf:li>
+                <rdf:li xml:lang="fr">Mastère Professionnel en Expert Réseaux</rdf:li>
+            </rdf:Alt>
+        </isima:exrFullName>
+        <isima:aggregateName>MP-EXP</isima:aggregateName>
+    </rdf:Description>
+    
+    <!-- Student -->
+    
+    <rdf:Description rdf:about="https://isima.rnu.tn/fra/students/sami-rajichi@me">
+        <sr:fullName>
+            <rdf:Alt>
+                <rdf:li xml:lang="en">Sami RAJICHI</rdf:li>
+                <rdf:li xml:lang="fr">RAJICHI Sami</rdf:li>
+                <rdf:li xml:lang="ar">سامي الرجيشي</rdf:li>
+            </rdf:Alt>
+        </sr:fullName>
+        <rdf:type rdf:resource="https://www.linkedin.com/in/sami-rajichi/schema#TunisianDataScienceStudent"/>
+        <rdf:type rdf:resource="https://www.linkedin.com/in/sami-rajichi/schema#MachineLearningEnthusiast"/>
+        <sr:location rdf:resource="https://fr.wikipedia.org/wiki/Mahdia"/>
+        <sr:generalInformations>
+            <rdf:Bag>
+                <rdf:li rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06-08-2000</rdf:li>
+                <rdf:li>(+216) 27 944 801</rdf:li>
+                <rdf:li>Al-Istabraq, Hiboun-Mahdia, Tunisia 5111</rdf:li>
+                <rdf:li>Man</rdf:li>
+            </rdf:Bag>
+        </sr:generalInformations>
+        <sr:hobbies>
+            <rdf:Seq>
+                <rdf:li>Self-learning</rdf:li>
+                <rdf:li>Coding</rdf:li>
+                <rdf:li>Playing Chess</rdf:li>
+            </rdf:Seq>
+        </sr:hobbies>
+        <sr:about>
+            A computer science graduate with a keen interest in specializing in Data Science. 
+            Known for his positive attitude and dedication in delivering high-quality projects. 
+            Exhibits a collaborative spirit, a strong ability to learn, and a willingness to take the lead in contributing to innovative projects.
+        </sr:about>
+        <sr:experiences>
+            <rdf:Seq>
+                <rdf:li rdf:resource="https://www.linkedin.com/in/sami-rajichi/details/experience/1"/>
+                <rdf:li rdf:resource="https://www.linkedin.com/in/sami-rajichi/details/experience/2"/>
+                <rdf:li rdf:resource="https://www.linkedin.com/in/sami-rajichi/details/experience/3"/>
+            </rdf:Seq>
+        </sr:experiences>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://www.linkedin.com/in/sami-rajichi/details/experience/1">
+        <expr:internship>Data Science Intern</expr:internship>
+        <expr:company rdf:resource="https://www.linkedin.com/company/shamash-it"/>
+        <expr:location>Tunis, Tunisia</expr:location>
+        <expr:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">07-2023</expr:startDate>
+        <expr:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">10-2023</expr:endDate>
+    </rdf:Description>
+    <!-- Another Experience -->
+    <rdf:Description rdf:about="https://www.linkedin.com/in/sami-rajichi/details/experience/2">
+        <expr:internship>Associate Mobile Developer</expr:internship>
+        <expr:company rdf:resource="https://www.linkedin.com/company/gewinner2018"/>
+        <expr:location>Ariana, Tunisia</expr:location>
+        <expr:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">08-2022</expr:startDate>
+        <expr:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06-2023</expr:endDate>
+    </rdf:Description>
+        <!-- Another Experience -->
+    <rdf:Description rdf:about="https://www.linkedin.com/in/sami-rajichi/details/experience/3">
+        <expr:internship>Augmented Reality and Mobile Development intern</expr:internship>
+        <expr:company rdf:resource="https://www.linkedin.com/company/regim-lab/about"/>
+        <expr:location>Sfax, Tunisia</expr:location>
+        <expr:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">02-2022</expr:startDate>
+        <expr:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">06-2022</expr:endDate>
+        <!-- Many More Experiences... -->
+    </rdf:Description>
+</rdf:RDF>
