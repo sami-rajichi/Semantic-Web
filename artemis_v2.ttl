@@ -1,0 +1,36 @@
+@prefix abo: <http://www.artemisbookstore.com/ontology#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+[
+    a   abo:Book1;
+    abo:isbn	"978-1-55566-286-8";
+	abo:pages	"159"^^xsd:integer;
+	abo:title	"Black Sun (Edward Abbey novel1)";
+	abo:publisher	[
+        a   abo:Publicher;
+        abo:name	"Simon & Shuster"
+    ];
+	abo:auther	[
+        a	abo:Writer;
+        abo:firstName	"Edward";
+	    abo:lastName	"Abbay"
+
+    ]
+].
+
+[
+	a	abo:book2;
+	abo:isbn	"0-8263-0457-5";
+	abo:pages	"211"^^xsd:integer;
+	abo:title	"Fire on the mountain (Edward Abbey)";
+	abo:publisher	[
+        a   abo:Publicher;
+        abo:name	"Dial Press"
+    ];
+	abo:auther	[
+        a	abo:Writer;
+        abo:firstName	"Edward";
+	    abo:lastName	"Abbay"
+
+    ]
+].
